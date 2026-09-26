@@ -4,7 +4,7 @@ Aplicación de escritorio para administrar clientes, vehículos y alquileres de 
 
 ## Requisitos
 
-- JDK compatible con Java 21
+- JDK 26 (el `pom.xml` configura `source` y `target` en 26)
 - Maven
 
 ## Ejecución
