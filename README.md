@@ -11,6 +11,12 @@ Aplicación de escritorio para administrar clientes, vehículos y alquileres de 
 
 En Windows, abre el proyecto en IntelliJ IDEA como proyecto Maven o ejecuta `mvnw.cmd javafx:run` desde la carpeta del proyecto.
 
+## Pruebas unitarias
+
+Las pruebas están separadas del código de la aplicación en `src/test/java`, organizadas por área: modelo, clientes, alquileres, liquidación e ingresos.
+
+En Windows, ejecuta `mvnw.cmd test` desde la carpeta del proyecto. Para ejecutar también la aplicación, usa el comando de la sección anterior.
+
 ## Funcionalidades incluidas
 
 - Registro de clientes y vehículos
